@@ -75,7 +75,10 @@
 
 // for (index = 0; index < toggleCase.length; index++) {
 //   // console.log(toggleCase.charAt([index]));
-//   if (toggleCase[index] >= "a" && toggleCase[index] <= "z") {
+//   if (
+//     toggleCase.charCodeAt(index) >= 97 &&
+//     toggleCase.charCodeAt(index) <= 122
+//   ) {
 //     storeNewStr = toggleCase.toUpperCase([index]);
 //     console.log(storeNewStr[index]);
 //   } else {
@@ -85,6 +88,12 @@
 // }
 // // ---
 
-console.log("\n --->>> Q:8 ||  <<<--- \n");
+console.log(
+  "\n --->>> Q:8 || Write a js program to find total number of alphabets, digits or special character in a string.  <<<--- \n"
+);
+
+var givenString = "1 is no and ! is special charector";
+console.log(givenString);
+// for()
 // -----------------------------
 console.log("\n\n\n");
