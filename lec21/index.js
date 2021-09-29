@@ -31,3 +31,11 @@ console.log("\n--->>> Lec #21 || Advance js <<<---\n");
 //     console.log("Actual value : ", actualValue, " index : ", arrayIndex)
 //   );
 // });
+
+console.log("\n --->>> Filter loop <<<--- \n");
+var multiplyer = [];
+var intialArr = [1, 2, 3, 4, 5];
+multiplyer = intialArr.filter((actualValue, arrayIndex) => actualValue > 2);
+
+console.log(multiplyer);
+console.log("new length : ", multiplyer.length);
